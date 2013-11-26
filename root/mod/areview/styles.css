@@ -1,0 +1,1291 @@
+/** Bits that can appear on any page. */
+.path-mod-areview .statedetails {
+    display: block;
+    font-size: 0.7em;
+}
+
+/** Attempt and review pages **/
+#page-mod-areview-attempt #page .controls,
+#page-mod-areview-summary #page .controls,
+#page-mod-areview-review #page .controls {
+    text-align: center;
+    margin: 8px auto;
+}
+
+#page-mod-areview-attempt .submitbtns,
+#page-mod-areview-review .submitbtns {
+    clear: left;
+    text-align: left;
+    padding-top: 1.5em;
+}
+
+#page-mod-areview-attempt.dir-rtl .submitbtns,
+#page-mod-areview-review.dir-rtl .submitbtns {
+    text-align: right;
+}
+
+body.jsenabled .questionflagcheckbox {
+    display: none;
+}
+
+/** Mod areview attempt **/
+.generalbox#passwordbox {
+    /* Should probably match .generalbox#intro above */
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#passwordform {
+    margin: 1em 0;
+}
+
+/* Question navigation block. */
+#areviewnojswarning {
+    color: red;
+}
+#areviewnojswarning {
+    font-size: 0.7em;
+    line-height: 1.1;
+}
+.jsenabled #areviewnojswarning {
+    display: none;
+}
+
+.path-mod-areview #user-picture {
+    margin: 0.5em 0;
+}
+.path-mod-areview #user-picture img {
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.path-mod-areview .qnbutton {
+    display: block;
+    position: relative;
+    float: left;
+    width: 1.5em;
+    height: 1.5em;
+    overflow: hidden;
+    margin: 0.3em 0.3em 0.3em 0;
+    padding: 0;
+    border: 1px solid #bbb;
+    background: #ddd;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.5em !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+.path-mod-areview.dir-rtl  .qnbutton {
+    float: right;
+}
+.path-mod-areview .qnbutton .trafficlight,
+.path-mod-areview .qnbutton .thispageholder {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.path-mod-areview .qnbutton.thispage {
+    border-color: #666;
+}
+.path-mod-areview .qnbutton.thispage .thispageholder {
+    border: 1px solid #666;
+}
+
+.path-mod-areview .qnbutton.flagged .trafficlight {
+    background: url([[pix:areview|navflagged]]) no-repeat top right;
+}
+
+.path-mod-areview .qnbutton.notyetanswered,
+.path-mod-areview .qnbutton.requiresgrading,
+.path-mod-areview .qnbutton.invalidanswer {
+    background-color: white;
+}
+.path-mod-areview .qnbutton.correct {
+    background-color: #cfc;
+}
+.path-mod-areview .qnbutton.correct .trafficlight {
+    border-bottom: 3px solid #080;
+}
+.path-mod-areview .qnbutton.partiallycorrect {
+    background-color: #ffa;
+}
+.path-mod-areview .qnbutton.notanswered,
+.path-mod-areview .qnbutton.incorrect {
+    background-color: #fcc;
+}
+.path-mod-areview .qnbutton.notanswered .trafficlight,
+.path-mod-areview .qnbutton.incorrect .trafficlight {
+    border-top: 3px solid #800;
+}
+
+.path-mod-areview .qnbutton.free:hover {
+    text-decoration: underline;
+}
+.path-mod-areview .qnbutton.free span {
+    cursor: pointer;
+}
+
+.path-mod-areview .othernav {
+    clear: both;
+    margin: 0.5em 0;
+}
+.path-mod-areview .othernav a,
+.path-mod-areview .othernav input {
+    display: block;
+    margin: 0.5em 0;
+}
+
+/* Countdown timer. */
+#areview-timer {
+    display: none;
+    margin-top: 1em;
+}
+#areview-time-left {
+    font-weight: bold;
+}
+#areview-timer.timeleft15 {
+    background: #ffffff;
+}
+#areview-timer.timeleft14 {
+    background: #ffeeee;
+}
+#areview-timer.timeleft13 {
+    background: #ffdddd;
+}
+#areview-timer.timeleft12 {
+    background: #ffcccc;
+}
+#areview-timer.timeleft11 {
+    background: #ffbbbb;
+}
+#areview-timer.timeleft10 {
+    background: #ffaaaa;
+}
+#areview-timer.timeleft9 {
+    background: #ff9999;
+}
+#areview-timer.timeleft8 {
+    background: #ff8888;
+}
+#areview-timer.timeleft7 {
+    background: #ff7777;
+}
+#areview-timer.timeleft6 {
+    background: #ff6666;
+}
+#areview-timer.timeleft5 {
+    background: #ff5555;
+}
+#areview-timer.timeleft4 {
+    background: #ff4444;
+}
+#areview-timer.timeleft3 {
+    background: #ff3333;
+}
+#areview-timer.timeleft2 {
+    background: #ff2222;
+}
+#areview-timer.timeleft1 {
+    background: #ff1111;
+}
+#areview-timer.timeleft0 {
+    background: #ff0000;
+}
+
+/** mod areview mod **/
+#page-mod-areview-mod #id_reviewoptionshdr .fitem {
+    width: 23%;
+    margin-left: 10px;
+}
+#page-mod-areview-mod #id_reviewoptionshdr fieldset.fgroup {
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+}
+
+#page-mod-areview-edit div.question div.content .questiontext,
+#categoryquestions .questiontext {
+    text-overflow: ellipsis;
+    position: relative;
+    zoom: 1;
+    padding-left: 0.3em;
+    max-width: 40%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#page-mod-areview-edit div.question div.content .questionname,
+#categoryquestions .questionname {
+    white-space: nowrap;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+    max-width: 20%;
+}
+
+#page-mod-areview-edit div.editq div.question div.content .singlequestion a .questionname,
+div.editq div.question div.content .singlequestion a .questiontext {
+    text-decoration: underline;
+}
+
+#page-mod-areview-edit.ie6 div.question div.content .questiontext {
+    width: 50%;
+}
+#page-mod-areview-edit.ie6 div.question div.content .questionname {
+    width: 20%;
+}
+
+#page-mod-areview-mod #id_reviewoptionshdr .fitem {
+    float: left;
+    width: 23%;
+    clear: none;
+}
+
+#page-mod-areview-mod #id_reviewoptionshdr .fitemtitle {
+    width: 100%;
+    font-weight: bold;
+    text-align: left;
+    height: 2.5em;
+    margin-left: 0;
+}
+
+#page-mod-areview-mod #id_reviewoptionshdr fieldset.fgroup {
+    clear: left;
+    margin: 0 0 1em;
+}
+#page-mod-areview-mod #id_reviewoptionshdr fieldset.fgroup > span {
+    float: left;
+    clear: left;
+    line-height: 1.7;
+}
+#page-mod-areview-mod #id_reviewoptionshdr fieldset.fgroup span label {
+    margin-left: 0.4em;
+}
+
+#page-mod-areview-mod.dir-rtl #id_reviewoptionshdr .fitem {
+    float: right;
+}
+#page-mod-areview-mod.dir-rtl #id_reviewoptionshdr fieldset.fgroup span {
+    float: right;
+    clear: right;
+}
+#page-mod-areview-mod.dir-rtl #id_reviewoptionshdr .fitemtitle {
+    text-align: right;
+}
+
+/** Mod areview view **/
+#page-mod-areview-view .areviewinfo,
+#page-mod-areview-view #page .areviewgradefeedback,
+#page-mod-areview-view #page .areviewattempt {
+    text-align: center;
+}
+#page-mod-areview-view #page .areviewattemptsummary td p {
+    margin-top: 0;
+}
+table.areviewattemptsummary .bestrow td {
+    background-color: #e8e8e8;
+}
+table.areviewattemptsummary .noreviewmessage {
+    color: gray;
+}
+#page-mod-areview-view .generaltable.areviewattemptsummary {
+    margin-left: auto;
+    margin-right: auto;
+}
+#page-mod-areview-view .generalbox#feedback {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+#page-mod-areview-view .generalbox#feedback h2 {
+    margin: 0;
+}
+#page-mod-areview-view .generalbox#feedback h3 {
+    text-align: left;
+}
+#page-mod-areview-view.dir-rtl .generalbox#feedback h3 {
+    text-align: center;
+}
+#page-mod-areview-view .generalbox#feedback .overriddennotice {
+    text-align: center;
+    font-size: 0.7em;
+}
+.areviewstartbuttondiv.areviewsecuremoderequired input {
+    display: none;
+}
+.jsenabled .areviewstartbuttondiv.areviewsecuremoderequired input {
+    display: inline;
+}
+
+.mod-areview .gradedattempt,
+.mod-areview tr.gradedattempt td {
+    background-color: #e8e8e8;
+}
+
+.areviewattemptcounts {
+    clear: left;
+    text-align: center;
+}
+
+/** Mod areview summary **/
+#page-mod-areview-summary #content {
+    text-align: center;
+}
+#page-mod-areview-summary .questionflag {
+    vertical-align: text-bottom;
+}
+#page-mod-areview-summary #areview-timer {
+    text-align: center;
+    margin-top: 1em;
+}
+#page-mod-areview-summary .submitbtns {
+    margin-top: 1.5em;
+}
+@media print {
+    .areview-secure-window * {
+        display: none !important;
+    }
+}
+
+/** Mod areview review **/
+table.areviewreviewsummary {
+    width: 100%;
+}
+table.areviewreviewsummary th.cell {
+    padding: 1px 0.5em 1px 1em;
+    font-weight: bold;
+    text-align: right;
+    width: 10em;
+    background: #f0f0f0;
+}
+table.areviewreviewsummary td.cell {
+    padding: 1px 1em 1px 0.5em;
+    text-align: left;
+    background: #fafafa;
+}
+.dir-rtl table.areviewreviewsummary td.cell {
+    text-align: right;
+}
+
+/** Mod areview make comment or override grade popup. **/
+#page-mod-areview-comment .mform {
+    width: 100%;
+}
+#page-mod-areview-comment .mform fieldset {
+    margin: 0;
+}
+#page-mod-areview-comment .que {
+    margin: 0;
+}
+
+/** Mod areview report **/
+#page-mod-areview-report h2.main {
+    clear: both;
+}
+#page-mod-areview-report div#commands,
+#page-mod-areview-report .controls {
+    text-align: center;
+}
+#page-mod-areview-report .dubious {
+    background-color: #fcc;
+}
+#page-mod-areview-report .highlight {
+    border : medium solid yellow;
+    background-color: lightYellow;
+}
+#page-mod-areview-report .negcovar {
+    border : medium solid pink;
+}
+#page-mod-areview-report .toggleincludeauto {
+    text-align: center;
+}
+#page-mod-areview-report .gradetheselink {
+    font-size: 0.8em;
+}
+#page-mod-areview-report .mform fieldset {
+    margin: 0;
+}
+#page-mod-areview-report fieldset.felement.fgroup {
+    margin: 0;
+}
+#page-mod-areview-report table th {
+    white-space: normal;
+}
+#page-mod-areview-report table#attempts td,
+#page-mod-areview-report table.areviewresponseanalysis td {
+    word-wrap: break-word;
+    max-width: 20em;
+}
+#page-mod-areview-report table.titlesleft td.c0 {
+    font-weight: bold;
+}
+#page-mod-areview-report table .numcol {
+    text-align: center;
+    vertical-align : middle !important;
+}
+
+#page-mod-areview-report table#attempts {
+    clear: both;
+    width: 80%;
+    margin: 0.2em auto;
+}
+#page-mod-areview-report table#attempts .header,
+#page-mod-areview-report table#attempts .cell {
+    padding: 4px;
+}
+#page-mod-areview-report table#attempts .header .commands {
+    display: inline;
+}
+#page-mod-areview-report table#attempts .picture {
+    width: 40px;
+}
+#page-mod-areview-report table#attempts td {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-left-style: solid;
+    border-right-style: solid;
+    vertical-align: middle;
+}
+#page-mod-areview-report table#attempts .header {
+    text-align: left;
+}
+#page-mod-areview-report table#attempts .picture {
+    text-align: center !important;
+}
+#page-mod-areview-report table#attempts.grades span.que,
+#page-mod-areview-report table#attempts span.avgcell {
+    white-space: nowrap;
+}
+#page-mod-areview-report table#attempts span.que .requiresgrading {
+    white-space: normal;
+}
+#page-mod-areview-report table#attempts .questionflag {
+    vertical-align: text-bottom;
+    padding-left: 6px;
+}
+.dir-rtl#page-mod-areview-report table#attempts .questionflag {
+    padding-right: 6px;
+    padding-left: 0;
+}
+
+#page-mod-areview-report .graph.flexible-wrap {
+    text-align: center;
+    overflow: auto;
+}
+
+#page-mod-areview-report #cachingnotice {
+    margin-bottom: 1em;
+    padding: 0.2em;
+}
+#page-mod-areview-report #cachingnotice .singlebutton {
+    margin: 0.5em 0 0;
+}
+#page-mod-areview-report .bold .reviewlink {
+    font-weight: normal;
+}
+
+/** Mod areview edit **/
+#page-mod-areview-edit h2.main {
+    display: inline;
+    padding-right: 1em;
+    clear: left;
+}
+
+#categoryquestions .r1 {
+    background: #e4e4e4;
+}
+#categoryquestions .r1.highlight {
+    background-color: #AAFFAA;
+}
+#categoryquestions .header {
+    text-align: center;
+    padding: 0 2px;
+    border: 0 none;
+}
+#categoryquestions th.modifiername .sorters,
+#categoryquestions th.creatorname .sorters {
+    font-weight: normal;
+    font-size: 0.8em;
+}
+table#categoryquestions {
+    width: 100%;
+    overflow: hidden;
+    table-layout: fixed;
+}
+#categoryquestions .iconcol {
+    width: 15px;
+    text-align: center;
+    padding: 0;
+}
+#categoryquestions .checkbox {
+    width: 19px;
+    text-align: center;
+    padding: 0;
+}
+#categoryquestions .qtype {
+    text-align: center;
+}
+#categoryquestions .qtype {
+    width: 28px;
+    padding: 0;
+}
+#categoryquestions .questiontext p {
+    margin: 0;
+}
+
+#page-mod-areview-edit div.areviewcontents {
+    float: left;
+    width: 70%;
+    display: block;
+    clear: left;
+}
+#page-mod-areview-edit div.areviewwhenbankcollapsed {
+    width: 100%;
+}
+#page-mod-areview-edit div.areviewpage {
+    display: block;
+    clear: both;
+    width: 100%;
+}
+#page-mod-areview-edit div.areviewpage span.pagetitle {
+    margin-top: 0.3em;
+    float: left;
+    display: block;
+    color: #006;
+}
+#page-mod-areview-edit div.areviewpage .pagecontent {
+    margin-top: 0.3em;
+    display: block;
+    float: left;
+    position: relative;
+    margin-left: 0.3em;
+    margin-bottom: 0.2em;
+    border-left: thin solid #777;
+    line-height: 1.3em;
+    border-radius: 0.6em;
+    border-radius-bottomleft: 0;
+    border-radius-topleft: 0;
+    width: 88%;
+    padding: 0.15em 0 0.3em;
+    background-color: #d6d6d6;
+}
+#page-mod-areview-edit div.areviewpage .pagecontent .pagestatus {
+    border-radius-bottomright: 0.3em;
+    border-radius-topright: 0.3em;
+    margin: 0.3em;
+    padding: 0.1em 0.1em 0.1em 0.3em;
+    background-color: #eee;
+    font-weight: bold;
+}
+#page-mod-areview-edit div.areviewpage .pagecontent form#addquestion {
+    background-color: #fff;
+}
+#page-mod-areview-edit div.areviewpage .pagecontent form.randomquestionform div {
+    /* it is a mystery why this has to be inline-table but otherwise the layout gets screwed, even if it is "inline" */display: inline-table;
+}
+#page-mod-areview-edit div.areviewpage .pagecontent form.randomquestionform div input {
+    display: inline;
+}
+
+#page-mod-areview-edit .addpage {
+    clear: both;
+    padding-top: 0.3em;
+    float: right;
+    margin-right: 2em;
+}
+#page-mod-areview-edit .statusdisplay {
+    background-color: #ffc;
+    clear: both;
+    margin: 0.3em 1em 0.3em 0;
+    padding: 1px ;
+    /* Stop margin collapse. */
+}
+#page-mod-areview-edit .statusdisplay p {
+    margin: 0.4em;
+}
+
+#page-mod-areview-edit div.reorder .reordercontrols {
+    clear: both;
+    padding-right: 1em;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em
+}
+#page-mod-areview-edit div.reorder .reordercontrols .moveselectedonpage {
+    clear: right;
+    float: right;
+    padding: 0.5em 0.3em;
+    text-align: right;
+}
+#page-mod-areview-edit div.reorder .reordercontrols .addnewpagesafterselected,
+#page-mod-areview-edit .repaginatecommand {
+    float: right;
+    clear: right;
+    padding-right: 1em;
+}
+#page-mod-areview-edit div.reorder .reordercontrols .deleteselected {
+    float: right;
+    margin-right: 1em;
+}
+#page-mod-areview-edit div.reorder div.question {
+    padding-top: 0.2em;
+}
+#page-mod-areview-edit div.reorder div.question div.qnum {
+    width: 2.9em;
+    padding-top: 0.1em;
+}
+#page-mod-areview-edit .reorder div.question div.content {
+    width: 87%;
+    float: left;
+    position: relative;
+    border-radius: 0.3em;
+    border-radius-bottomleft: 0;
+    border-radius-topleft: 0;
+    line-height: 1.2em;
+    padding: 0.1em;
+    background-color: #F9F9F9;
+}
+#page-mod-areview-edit .reorder .questioncontentcontainer .areview_randomquestion {
+    position: relative;
+}
+#page-mod-areview-edit .reorder div.question div.content div.areview_randomquestion {
+    line-height: 1em;
+}
+
+#page-mod-areview-edit .reorder .questioncontentcontainer {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#page-mod-areview-edit .reorder .questioncontentcontainer .randomquestioncategory {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline;
+    float: none;
+}
+#page-mod-areview-edit .reorder .questioncontentcontainer .randomquestioncategory label {
+    max-width: 25%;
+    overflow: hidden;
+    padding-left: 0.3em;
+    white-space: nowrap;
+    display: inline-block;
+}
+#page-mod-areview-edit .reorder .questioncontentcontainer .randomquestionfromcategory label {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+}
+#page-mod-areview-edit .reorder .questioncontentcontainer .randomquestionfromcategory,
+#page-mod-areview-edit .reorder div.question div.content .questionpreview {
+    display: inline;
+    float: none;
+}
+
+#page-mod-areview-edit .reorder fieldset {
+    display: inline;
+}
+#page-mod-areview-edit div.reorder div.question div.qnum {
+    text-align: right;
+    font-size: 1em;
+}
+
+#page-mod-areview-edit .questioncontentcontainer div.randomquestionqlist {
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    clear: both;
+    margin: 0.5em;
+    margin-top: 0.8em;
+}
+#page-mod-areview-edit .questioncontentcontainer div.randomquestionqlist .totalquestionsinrandomqcategory {
+    overflow: auto;
+    white-space: normal;
+}
+#page-mod-areview-edit .questioncontentcontainer div.randomquestionqlist ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#page-mod-areview-edit .questioncontentcontainer div.randomquestionqlist ul li {
+    clear: left;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#page-mod-areview-edit .questioncontentcontainer div.randomquestionqlist ul li img {
+    padding-right: 0.3em;
+}
+#page-mod-areview-edit .questioncontentcontainer div.randomquestionqlist ul li span {
+    display: inline;
+}
+#page-mod-areview-edit .questioncontentcontainer a {
+    text-decoration: underline;
+}
+#page-mod-areview-edit .questioncontentcontainer div.singlequestion a {
+    text-decoration: underline;
+}
+#page-mod-areview-edit .questioncontentcontainer .randomquestioncategory {
+    font-weight: bold;
+}
+
+#page-mod-areview-edit div.question {
+    clear: left;
+    width: 100%;
+}
+#page-mod-areview-edit div.question div.qnum {
+    display: block;
+    float: left;
+    width: 1.4em;
+    padding-right: 0.3em;
+    padding-left: 0;
+    z-index: 99;
+    text-align: right;
+    color: #333;
+}
+#page-mod-areview-edit div.question div.questioncontainer {
+    background-color: #ffc;
+}
+#page-mod-areview-edit div.editq div.question div.content {
+    width: 87%;
+    float: left;
+    position: relative;
+    border-radius: 0.6em;
+    border-radius-bottomleft: 0;
+    border-radius-topleft: 0;
+    line-height: 1.4em;
+    padding: 0.5em;
+}
+#page-mod-areview-edit div.question div.content div.points {
+    top: 0.5em;
+    border-left: 0.4em solid #FFF;
+    width: 8.5em;
+    padding: 0.2em;
+    line-height: 1em;
+    max-width: 30%;
+    position: absolute;
+    right: 60px;
+    border-radius: 0.2em;
+    border-radius-bottomleft: 0;
+    border-radius-topleft: 0;
+    z-index: 900;
+    display: block;
+    margin: 0;
+    background-color: #ddf;
+}
+#page-mod-areview-edit div.question div.content div.points input {
+    width: 2em;
+    padding: 0;
+}
+#page-mod-areview-edit div.question div.content div.points input.pointssubmitbutton {
+    width: auto;
+}
+#page-mod-areview-edit div.question div.content div.qorder {
+    line-height: 1em;
+    max-width: 30%;
+    position: absolute;
+    right: 50px;
+    border-radius: 0.2em;
+    border-radius-bottomleft: 0;
+    border-radius-topleft: 0;
+    z-index: 900;
+    display: block;
+    margin: 0;
+    background-color: #ddf;
+}
+#page-mod-areview-edit div.question div.content .editicon {
+    width: 15px;
+}
+#page-mod-areview-edit div.question div.content .singlequestion .questionname,
+#page-mod-areview-edit div.question div.content .singlequestion .questiontext {
+    display: inline-block;
+}
+#page-mod-areview-edit div.question div.content .singlequestion .questionpreview {
+    background-color: #eee;
+}
+#page-mod-areview-edit div.question div.content .questiontype {
+    display: block;
+    clear: left;
+    float: left;
+}
+#page-mod-areview-edit.dir-rtl div.question div.content .questiontype {
+    clear: right;
+    float: right;
+}
+#page-mod-areview-edit div.question div.content .questionpreview {
+    display: block;
+    float: left;
+    margin-left: 0.3em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+#page-mod-areview-edit div.question div.content .questionpreview a {
+    background-color: #eee;
+}
+#page-mod-areview-edit div.question div.content div.areview_randomquestion .questionpreview {
+    display: inline;
+    float: none;
+}
+#page-mod-areview-edit div.question div.content div.questioncontrols {
+    float: right;
+    width: 55px;
+    position: absolute;
+    right: 0.3em;
+    top: 0;
+    z-index: 900;
+    display: block;
+    padding: 0.2em;
+    background-color: #F9F9F9;
+    text-align: right;
+}
+#page-mod-areview-edit div.question div.content div.questioncontrols img.upwithoutdown {
+    padding-right: 12px;
+    display: inline;
+}
+#page-mod-areview-edit div.question div.content .questiontext {
+    font-weight: bold;
+}
+#page-mod-areview-edit div.question div.content .questiontype {
+    font-style: italic;
+}
+
+#page-mod-areview-edit .editq div.question div.qnum {
+    padding-top: 0.2em;
+}
+#page-mod-areview-edit .editq div.question {
+    padding-top: 0.3em;
+}
+#page-mod-areview-edit .editq div.questioncontentcontainer  div.singlequestion img {
+    float: left;
+    padding-top: 0.3em;
+    padding-right: 0.3em;
+}
+#page-mod-areview-edit .editq div.question div.content {
+    background-color: #F9F9F9;
+}
+#page-mod-areview-edit .editq div.question div.content .randomquestioncategory {
+    margin-top: 0.4em;
+    position: relative;
+    display: inline-block;
+}
+#page-mod-areview-edit .editq div.question div.content .randomquestioncategory a {
+    display: block;
+    max-width: 15em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+    position: relative;
+}
+#page-mod-areview-edit .editq div.question div.content .questionpreview {
+    float: left;
+}
+#page-mod-areview-edit .editq div.question div.content .questionpreview a {
+    font-weight: normal;
+    margin-left: 0em;
+    display: inline;
+    float: none;
+}
+#page-mod-areview-edit .editq div.question div.content .randomquestioncategory .questionpreview img {
+    padding-right: 0.3em;
+}
+#page-mod-areview-edit .editq div.question div.content .singlequestion .questioneditbutton .questionname,
+#page-mod-areview-edit .editq div.question div.content .singlequestion .questioneditbutton .questiontext {
+    float: left;
+}
+#page-mod-areview-edit .reorder div.question div.content .singlequestion.missingtype .questionname,
+#page-mod-areview-edit .editq div.question div.content .singlequestion.missingtype .questionname {
+    font-style: italic;
+    max-width: 75%;
+}
+#page-mod-areview-edit .editq div.question div.description div.content .questiontext {
+    max-width: 75%;
+}
+#page-mod-areview-edit .editq div.question div.qnum {
+    font-size: 1.5em;
+}
+
+table#categoryquestions td,
+#page-mod-areview-edit table#categoryquestions th {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.questionbankwindow.block {
+    float: right;
+    width: 30%;
+    right: 0.3em;
+    padding-bottom: 0.5em;
+    display: block;
+    border-width: 0;
+}
+.questionbankwindow.block .content {
+    padding: 0;
+}
+.questionbankwindow .choosecategory,
+.questionbankwindow .createnewquestion {
+    padding: 0.3em;
+}
+.questionbankwindow .createnewquestion .singlebutton {
+    display: inline;
+}
+.questionbankwindow #catmenu_jump {
+    display: block;
+}
+
+.questionbank div.categoryquestionscontainer,
+.questionbank .categorysortopotionscontainer,
+.questionbank .categorypagingbarcontainer,
+.questionbank .categoryselectallcontainer {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+.noquestionsincategory {
+    clear: both;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.modulespecificbuttonscontainer {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+.areviewquestionlistcontrols {
+    text-align: center;
+}
+
+.categoryinfo {
+    padding: 0.3em;
+}
+
+.path-mod-areview .gradingdetails {
+    font-size: small;
+}
+
+body #areviewcontentsblock #repaginatedialog {
+    display: none;
+}
+body.jsenabled #areviewcontentsblock #repaginatedialog .hd {
+    display: block;
+}
+body.jsenabled #areviewcontentsblock #repaginatedialog .bd {
+    padding: 1em;
+}
+body.jsenabled #areviewcontentsblock .repaginatecommand #repaginatecommand {
+    display: block;
+}
+
+#page-mod-areview-edit #randomquestiondialog {
+    display: none;
+}
+#page-mod-areview-edit #qtypechoicecontainer {
+    display: none;
+}
+
+#page-mod-areview-edit .questionbankwindow select#catmenu_jump {
+/* In Opera9, IE6 the width of the
+select obeys the width of its content
+by default. This prevents that. */width: 100%;
+}
+
+/*this color might need to be theme-specific,
+but in terms of usability, as testing showed,
+http: //docs.moodle.org/dev/Quiz_UI_redesign/usability_testing_of_August_2008/Issues#Question_bank_.2F_question_adding_controls_visibility
+it must be ensured that the question
+bank window's title is prominent enough*/
+#page-mod-areview-edit .questionbankwindow.block div.header {
+    background-color: #009;
+    background-image: none;
+    padding-top: 0.2em;
+    font-weight: bold;
+    border: 0 none;
+}
+#page-mod-areview-edit .questionbankwindow.block div.header div.title h2 {
+    color: #FFF;
+    text-align: center;
+}
+#page-mod-areview-edit .collapsed .container {
+    display: none;
+}
+
+#page-mod-areview-edit .questionbankwindow a#showbankcmd,
+#page-mod-areview-edit .questionbankwindow a#hidebankcmd {
+    color: #FFF;
+    text-decoration: underline;
+}
+#page-mod-areview-edit .questionbankwindow a#showbankcmd:hover,
+#page-mod-areview-edit .questionbankwindow a#hidebankcmd:hover {
+    color: #009;
+    background-color: #fff;
+    text-decoration: none;
+}
+#page-mod-areview-edit .questionbankwindow #showbankcmd {
+    display: none;
+}
+#page-mod-areview-edit .collapsed #showbankcmd {
+    display: inline;
+}
+#page-mod-areview-edit .questionbankwindow #hidebankcmd {
+    display: inline;
+}
+#page-mod-areview-edit .collapsed #hidebankcmd {
+    display: none;
+}
+
+#page-mod-areview-edit .areviewquestionlistcontrols {
+    display: inline;
+}
+
+#page-mod-areview-edit .areviewpagedelete {
+    position: absolute;
+    top: 0.2em;
+    right: 0.2em;
+    display: inline;
+    z-index: 900;
+}
+#page-mod-areview-edit .areviewpagedelete img {
+    background-color: #d6d6d6;
+    padding: 0.6em;
+}
+#page-mod-areview-edit .pagecontrols {
+    clear: both;
+    margin-left: 0.5em;
+    padding-top: 0.5em;
+}
+#page-mod-areview-edit .pagecontrols .singlebutton {
+    float: left;
+    margin-left: 1em;
+}
+#page-mod-areview-edit .pagecontrols .helplink {
+    float: left;
+}
+
+#page-mod-areview-edit div#randomquestiondialog_c {
+    width: 90%;
+}
+#page-mod-areview-edit div#randomquestiondialog_c .mform,
+#randomquestiondialog_c select {
+    width: 100%;
+}
+
+#page-mod-areview-edit div#repaginatedialog .mform {
+    margin-left: auto;
+    margin-right: auto;
+}
+#page-mod-areview-edit div.container div.generalbox {
+    position: relative;
+    display: block;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+#page-mod-areview-edit .questionbankwindow .createnewquestion select,
+#page-mod-areview-edit .questionbankwindow #catmenu select,
+#page-mod-areview-edit .questionbankwindow #menucategory {
+    width: 100%;
+}
+
+#page-mod-areview-edit .paging {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+    background-color: #ddd;
+}
+#page-mod-areview-edit .pagingbottom {
+    padding-bottom: 0.3em;
+}
+#page-mod-areview-edit .paging a:hover {
+    background-color: #eef;
+}
+
+#page-mod-areview-edit #page-footer {
+    clear: both;
+    padding-top: 1em;
+}
+
+.ie6#page-mod-areview-edit div.question div.content .questiontext,
+.ie6#page-mod-areview-edit #categoryquestions .questionname {
+    /*ie6 shows this as an arrow if this is not specified*/cursor: pointer;
+}
+.ie6#page-mod-areview-edit div.question div.content .questionname,
+.ie6#page-mod-areview-edit #categoryquestions .questiontext {
+    /*ie6 shows this as an arrow if this is not specified*/cursor: pointer;
+}
+.ie6#page-mod-areview-edit .reorder .questioncontentcontainer .randomquestioncategory label {
+    width: 35%;
+}
+.ie6#page-mod-areview-edit .editq div.question div.content .randomquestioncategory a {
+    width: 40%;
+}
+
+#page-mod-areview-edit #categoryquestions .questiontext {
+    font-weight: bold;
+}
+#page-mod-areview-edit .categoryinfofield {
+    font-style: italic;
+}
+#page-mod-areview-edit .categorynamefield {
+    font-weight: bold;
+}
+#page-mod-areview-edit a.configurerandomquestion {
+    font-size: small;
+    text-decoration: underline;
+}
+#page-mod-areview-edit .questioncontentcontainer div.randomquestionqlist {
+    background-color: #eee;
+}
+#page-mod-areview-edit .questioncontentcontainer div.randomquestionqlist ul {
+    color: #555;
+}
+#page-mod-areview-edit .questioncontentcontainer div.randomquestionqlist .totalquestionsinrandomqcategory {
+    color: #000;
+}
+#page-mod-areview-edit .categoryinfo {
+    background-color: #eee;
+    border-bottom: 1px solid #bbb;
+}
+#page-mod-areview-edit .questionsortoptions {
+    background-color: #ddd;
+}
+
+#page-mod-areview-edit div.questionbank {
+    background-color: #e6e6ff;
+}
+#page-mod-areview-edit div.questionbank form .invisiblefieldset {
+    clear: both;
+}
+#page-mod-areview-edit div.questionbank .categorysortopotionscontainer {
+    padding-top: 0.5em;
+    margin-top: 0.3em;
+}
+#page-mod-areview-edit div.questionbank .categoryquestionscontainer,
+.questionbank .categorysortopotionscontainer,
+.questionbank .categorypagingbarcontainer,
+.questionbank .categoryselectallcontainer {
+    background-color: #FFF;
+}
+
+#categoryquestions .questiontext {
+    width: 50%;
+}
+#categoryquestions .questionname {
+    width: 50%;
+}
+
+.ie6#page-mod-areview-edit div.question div.content .questiontext,
+.ie6#page-mod-areview-edit #categoryquestions .questionname {
+    /*ie6 shows this as an arrow if this is not specified*/cursor: pointer;
+}
+.ie6#page-mod-areview-edit div.question div.content .questionname,
+.ie6#page-mod-areview-edit #categoryquestions .questiontext {
+    /*ie6 shows this as an arrow if this is not specified*/cursor: pointer;
+}
+.ie6.path-mod-areview div.tabtree a span img.iconsmall {
+    margin: 0;
+    vertical-align: baseline;
+    position: relative;
+    top: 1px;
+}
+.ie6#page-mod-areview-edit div.question div.content .questiontext {
+    width: 50%;
+}
+.ie6#page-mod-areview-edit div.question div.content .questionname {
+    width: 20%;
+}
+.ie6#page-mod-areview-edit .editq div.question div.content .randomquestioncategory a {
+    width: 40%;
+}
+.ie6#page-mod-areview-edit .reorder .questioncontentcontainer .randomquestioncategory label {
+    width: 35%;
+}
+.qnum label {
+    padding-right: 0.25em;
+}
+
+/* RTL Mode */
+#page-mod-areview-mod.dir-rtl #id_reviewoptionshdr .fitem {
+    width: 23%;
+    float: right;
+}
+#page-mod-areview-mod.dir-rtl #id_reviewoptionshdr .fitemtitle {
+    text-align: right;
+}
+#page-mod-areview-mod.dir-rtl #id_reviewoptionshdr fieldset.fgroup span {
+    clear: right;
+    float: right;
+}
+#page-mod-areview-edit.dir-rtl div.areviewpage span.pagetitle {
+    float: right;
+}
+#page-mod-areview-edit.dir-rtl div.areviewpage .pagecontent {
+    float: right;
+}
+#page-mod-areview-edit.dir-rtl div.question {
+    clear: right;
+}
+#page-mod-areview-edit.dir-rtl div.question div.qnum {
+    float: right;
+}
+#page-mod-areview-edit.dir-rtl div.editq div.question div.content {
+    float: right;
+    height: 40px;
+}
+#page-mod-areview-edit.dir-rtl div.question div.content div.points {
+    left: 60px;
+    right: auto;
+}
+#page-mod-areview-edit.dir-rtl div.question div.content div.questioncontrols {
+    float: left;
+    left: 0.3em;
+    right: auto;
+}
+#page-mod-areview-edit.dir-rtl .editq div.question div.content .singlequestion .questioneditbutton .questionname,
+#page-mod-areview-edit.dir-rtl .editq div.question div.content .singlequestion .questioneditbutton .questiontext {
+    float: right;
+    padding-right: 0.3em;
+}
+#page-mod-areview-edit.dir-rtl div.question div.content .questiontext,
+#page-mod-areview-edit.dir-rtl #categoryquestions .questiontext {
+    padding-right: 0.3em;
+}
+#page-mod-areview-edit.dir-rtl .editq div.questioncontentcontainer div.singlequestion img {
+    float: right;
+}
+#page-mod-areview-edit.dir-rtl .editq div.question div.content .questionpreview {
+    float: right;
+}
+#page-mod-areview-edit.dir-rtl div.question div.content div.qorder {
+    left: 50px;
+    right: auto;
+}
+#page-mod-areview-edit.dir-rtl .reorder div.question div.content {
+    float: right;
+}
+#page-mod-areview-edit.dir-rtl .areviewpagedelete {
+    left: 0.2em;
+    right: auto;
+}
+#page-mod-areview-edit.dir-rtl div.areviewcontents {
+    clear: right;
+    float: right;
+}
+#page-mod-areview-edit.dir-rtl .questionbankwindow.block {
+    float: left;
+}
+#page-question-edit.dir-rtl td.creatorname, #page-question-edit.dir-rtl td.modifiername {
+    text-align: center;
+}
+.path-question.dir-rtl input[name="maxmark"],
+.path-question-type.dir-rtl input[name="defaultmark"],
+#page-mod-areview-edit.dir-rtl div.points input {
+    direction: ltr;
+    text-align: left;
+}

@@ -1,0 +1,10 @@
+{
+    "name": "moodle-mod_areview-autosave",
+    "builds": {
+        "moodle-mod_areview-autosave": {
+            "jsfiles": [
+                "autosave.js"
+            ]
+        }
+    }
+}

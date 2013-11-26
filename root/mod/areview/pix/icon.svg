@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In  -->
+
+<svg
+   xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   width="24px"
+   height="24px"
+   viewBox="0 0 24 24"
+   style="overflow:visible;enable-background:new 0 0 24 24;"
+   xml:space="preserve"
+   preserveAspectRatio="xMinYMid meet"
+   id="svg3219"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="icon.svg"><metadata
+   id="metadata3299"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1879"
+   inkscape:window-height="1027"
+   id="namedview3297"
+   showgrid="false"
+   inkscape:zoom="25.102291"
+   inkscape:cx="12"
+   inkscape:cy="10.1518"
+   inkscape:window-x="0"
+   inkscape:window-y="31"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg3219" />
+<defs
+   id="defs3221">
+</defs>
+<linearGradient
+   id="SVGID_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="11.9565"
+   y1="0"
+   x2="11.9565"
+   y2="24.0005">
+	<stop
+   offset="0"
+   style="stop-color:#95BFF8"
+   id="stop3224" />
+	<stop
+   offset="0.5569"
+   style="stop-color:#84ADEF"
+   id="stop3226" />
+	<stop
+   offset="1"
+   style="stop-color:#7CA4EB"
+   id="stop3228" />
+	<a:midPointStop
+   offset="0"
+   style="stop-color:#95BFF8" />
+	<a:midPointStop
+   offset="0.4"
+   style="stop-color:#95BFF8" />
+	<a:midPointStop
+   offset="1"
+   style="stop-color:#7CA4EB" />
+</linearGradient>
+
+<linearGradient
+   id="SVGID_2_"
+   gradientUnits="userSpaceOnUse"
+   x1="11.9565"
+   y1="1"
+   x2="11.9565"
+   y2="23.0005">
+	<stop
+   offset="0"
+   style="stop-color:#E7F4FC"
+   id="stop3233" />
+	<stop
+   offset="1"
+   style="stop-color:#DEEFFC"
+   id="stop3235" />
+	<a:midPointStop
+   offset="0"
+   style="stop-color:#E7F4FC" />
+	<a:midPointStop
+   offset="0.5"
+   style="stop-color:#E7F4FC" />
+	<a:midPointStop
+   offset="1"
+   style="stop-color:#DEEFFC" />
+</linearGradient>
+
+<linearGradient
+   id="SVGID_3_"
+   gradientUnits="userSpaceOnUse"
+   x1="11.9565"
+   y1="2"
+   x2="11.9565"
+   y2="22.0005">
+	<stop
+   offset="0"
+   style="stop-color:#CEE9F9"
+   id="stop3240" />
+	<stop
+   offset="1"
+   style="stop-color:#BBDFF8"
+   id="stop3242" />
+	<a:midPointStop
+   offset="0"
+   style="stop-color:#CEE9F9" />
+	<a:midPointStop
+   offset="0.5"
+   style="stop-color:#CEE9F9" />
+	<a:midPointStop
+   offset="1"
+   style="stop-color:#BBDFF8" />
+</linearGradient>
+
+<linearGradient
+   id="SVGID_4_"
+   gradientUnits="userSpaceOnUse"
+   x1="17.2021"
+   y1="0"
+   x2="17.2021"
+   y2="9.3594">
+	<stop
+   offset="0"
+   style="stop-color:#95BFF8"
+   id="stop3247" />
+	<stop
+   offset="0.5569"
+   style="stop-color:#84ADEF"
+   id="stop3249" />
+	<stop
+   offset="1"
+   style="stop-color:#7CA4EB"
+   id="stop3251" />
+	<a:midPointStop
+   offset="0"
+   style="stop-color:#95BFF8" />
+	<a:midPointStop
+   offset="0.4"
+   style="stop-color:#95BFF8" />
+	<a:midPointStop
+   offset="1"
+   style="stop-color:#7CA4EB" />
+</linearGradient>
+
+<linearGradient
+   id="SVGID_5_"
+   gradientUnits="userSpaceOnUse"
+   x1="14.2793"
+   y1="7.5449"
+   x2="17.4074"
+   y2="4.4168">
+	<stop
+   offset="0"
+   style="stop-color:#E7F4FC"
+   id="stop3256" />
+	<stop
+   offset="0.5181"
+   style="stop-color:#E5F3FC"
+   id="stop3258" />
+	<stop
+   offset="0.7045"
+   style="stop-color:#DEF0FB"
+   id="stop3260" />
+	<stop
+   offset="0.8371"
+   style="stop-color:#D3EBFA"
+   id="stop3262" />
+	<stop
+   offset="0.872"
+   style="stop-color:#CEE9F9"
+   id="stop3264" />
+	<stop
+   offset="1"
+   style="stop-color:#BDD8F0"
+   id="stop3266" />
+	<a:midPointStop
+   offset="0"
+   style="stop-color:#E7F4FC" />
+	<a:midPointStop
+   offset="0.87"
+   style="stop-color:#E7F4FC" />
+	<a:midPointStop
+   offset="0.872"
+   style="stop-color:#CEE9F9" />
+	<a:midPointStop
+   offset="0.5"
+   style="stop-color:#CEE9F9" />
+	<a:midPointStop
+   offset="1"
+   style="stop-color:#BDD8F0" />
+</linearGradient>
+
+
+
+
+<path
+   sodipodi:nodetypes="cccccc"
+   inkscape:transform-center-x="0.62790838"
+   inkscape:connector-curvature="0"
+   id="path3341"
+   d="M 23.867483,3.8232776 23.896333,7.1337563 0.12166196,7.1966963 0.08802226,3.8129456 12.072393,-0.42299482 z"
+   inkscape:transform-center-y="-0.76978478"
+   style="fill:#d5ffd5"
+   inkscape:export-filename="/home/bradshaw/git/cummulative-quiz/moodleareview/root/mod/areview/pix/icon.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90" /><path
+   style="fill:#aaffaa"
+   inkscape:transform-center-y="-0.76978478"
+   d="M 23.811145,7.2598973 23.839995,10.570376 0.06532393,10.633316 0.03168423,7.2495653 12.016055,3.0136249 z"
+   id="path3329"
+   inkscape:connector-curvature="0"
+   inkscape:transform-center-x="0.62790838"
+   sodipodi:nodetypes="cccccc"
+   inkscape:export-filename="/home/bradshaw/git/cummulative-quiz/moodleareview/root/mod/areview/pix/icon.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90" /><path
+   sodipodi:nodetypes="cccccc"
+   inkscape:transform-center-x="0.62790838"
+   inkscape:connector-curvature="0"
+   id="path3308"
+   d="m 23.839314,10.640179 0.02885,3.310479 L 0.09349294,14.013598 0.05985324,10.629847 12.044224,6.3939066 z"
+   inkscape:transform-center-y="-0.76978478"
+   style="fill:#80ff80"
+   inkscape:export-filename="/home/bradshaw/git/cummulative-quiz/moodleareview/root/mod/areview/pix/icon.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90" /><path
+   style="fill:#2aff2a"
+   inkscape:transform-center-y="-0.76978478"
+   d="M 23.839314,14.020461 23.868164,17.33094 0.09349294,17.39388 0.05985324,14.010129 12.044224,9.7741883 z"
+   id="path3306"
+   inkscape:connector-curvature="0"
+   inkscape:transform-center-x="0.62790838"
+   sodipodi:nodetypes="cccccc"
+   inkscape:export-filename="/home/bradshaw/git/cummulative-quiz/moodleareview/root/mod/areview/pix/icon.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90" /><path
+   sodipodi:nodetypes="cccccc"
+   inkscape:transform-center-x="0.62790838"
+   inkscape:connector-curvature="0"
+   id="path3304"
+   d="m 23.867483,17.344405 0.02885,3.310479 -23.77467105,0.06294 -0.0336397,-3.383751 11.98437075,-4.235941 z"
+   inkscape:transform-center-y="-0.76978478"
+   style="fill:#00d400"
+   inkscape:export-filename="/home/bradshaw/git/cummulative-quiz/moodleareview/root/mod/areview/pix/icon.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90" /><path
+   style="fill:#008000"
+   inkscape:transform-center-y="-0.76978478"
+   d="m 23.923821,20.668349 0.02885,3.310479 -23.77467102,0.06294 -0.0336397,-3.383751 11.98437077,-4.235941 z"
+   id="path3301"
+   inkscape:connector-curvature="0"
+   inkscape:transform-center-x="0.62790838"
+   sodipodi:nodetypes="cccccc"
+   inkscape:export-filename="/home/bradshaw/git/cummulative-quiz/moodleareview/root/mod/areview/pix/icon.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90" /></svg>
